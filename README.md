@@ -6,6 +6,11 @@ A basic application using 2D image to estimate the speed of other vehicles aroun
 
 ## Demo video
 [Video_40s](https://www.youtube.com/watch?v=CZPUt3wOUQM)
+
+## Paper
+[YOLOv3](https://arxiv.org/pdf/1804.02767v1.pdf)
+[YOLOv4](https://arxiv.org/pdf/2004.10934v1.pdf)
+[DeepSORT](https://arxiv.org/pdf/1703.07402v1.pdf)
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the environment with 'requirements.txt'.
@@ -27,8 +32,8 @@ Another way is installing the environment of Anaconda with 'environment.yml'
 
 ## Acknowledgements
 [https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov3) \
-[https://github.com/ultralytics/yolov3](https://github.com/WongKinYiu/PyTorch_YOLOv4)\
-[https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov5) \
+[https://github.com/WongKinYiu/PyTorch_YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4)\
+[https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5) \
 [https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 
 
