@@ -26,9 +26,14 @@ Another way is installing the environment of Anaconda with 'environment.yml'
 [YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4)\
 [YOLOv5](https://github.com/ultralytics/yolov5) 
 
-1. Train the model with dataset given
-2. Remember to replace track.py in [Yolov5 + Deep Sort with PyTorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) with the track.py file in the repo.
-3. Following the tutorials in [Yolov5 + Deep Sort with PyTorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+1. The given link to the dataset includes train and test, so you need to download and extract it first
+2. Then train the dataset with yolov5
+3. Remember to replace track.py in [Yolov5 + Deep Sort with PyTorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) with the track_4.py in my repo.
+4. Following the tutorials in [Yolov5 + Deep Sort with PyTorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+5. Finally run:(Remember to get the right movie path responding to kmph, EX:test_day_10_007.MOV and kph_test_day_10_007.MOV
+```bash
+python track_4.py --source PATH_TO_THE_MOVIE --kph PATH_TO_THE_KMPH --save-vid --yolo_model PATH_TO_YOLO_CHECKPOINT --img 1280
+```
 
 ## Acknowledgements
 [https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov3) \
